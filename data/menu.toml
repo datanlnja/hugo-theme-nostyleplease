@@ -1,51 +1,43 @@
 [[entries]]
-title = "info"
+title = "contact"
 
   [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/datanlnja/"
 
   [[entries.entries]]
-  title = "github repo"
-  url = "https://github.com/hanwenguo/hugo-theme-nostyleplease"
+  title = "github"
+  url = "https://github.com/datanlnja"
+
+  [[entries.entries]]
+  title = "facebook"
+  url = "https://facebook.com/datanlnja"
+
+  [[entries.entries]]
+  title = "tg chat (ru)"
+  url = "https://t.me/+85zM7PTpFqllZDAy"
+
+  [[entries.entries]]
+  title = "cv"
+  url = "DMITRII_NOVIKOV.pdf"
+
+[[entries]]
+title = "projects"
+
+  [[entries.entries]]
+  title = "airflow: mooc course in the russian language."
+  url = "https://stepik.org/course/99527/promo"
+
+  [[entries.entries]]
+  title = "clickhouse: mooc course delves into ClickHouse"
+  url = "https://stepik.org/course/100210/promo"
 
 
 [[entries]]
-title = "all posts"
-
-  [entries.post_list]
-  limit = 5
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
-
-[[entries]]
-title = "posts by category"
+title = "posts ..."
 
   [entries.post_list]
   section = "posts"
   show_more = true
   show_more_text = "See more posts..."
   show_more_url = "posts"
-
-[[entries]]
-title = "rss"
-url = "index.xml"
-
-[[entries]]
-title = "another list"
-
-  [[entries.entries]]
-  title = "with subitems"
-
-    [[entries.entries.entries]]
-    title = "with subsubitems"
-
-    [[entries.entries.entries]]
-    title = "example page"
-    url = "about"
-
-[[entries]]
-title = "PRO TIP"
-entries = [
-   { title = "to edit this menu, edit data/menu.toml file" }
-  ]
